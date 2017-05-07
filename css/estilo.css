@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css?family=Abel'); /*placeholder form*/
+@import url('https://fonts.googleapis.com/css?family=Philosopher');/*texto sobre P*/
+
+
+
+html { height: 100%; overflow: hidden; }
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    perspective: 1px;
+}
+body p,h1,h3{
+	font-family: 'Philosopher', sans-serif;
+
+}
+#logo{
+	padding: 10px;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #000;
+    background-color: #3ac415;
+}
+.navbar-default{
+   background-color: #fff;
+}
+.navbar-default li a{
+	font-family: 'Philosopher', sans-serif;
+}
+h1 {
+    text-align: center;
+    font-size: 50px;
+    color: #fff;
+    text-shadow: 0 2px 2px #000;
+}
+#sessao1 {
+	margin-top: -20px;
+    background: url('../img/9016988092_798468a8d5_b.jpg');
+    background-size: cover;
+    -webkit-background-size:cover;
+	-moz-background-size:cover;
+	-ms-background-size:cover;
+}
+#sessao2 {
+    background-color: #3ac415;
+    transform: translateZ(-1px) scale(2);
+    background-size: cover;
+    z-index: -1;
+}
+#sessao2 p{
+ color: #fff; font-size: 40px;
+}
+#sessao2 b{
+ color: #000000; font-size: 70px;}
+
+#sessao3 {
+    background: url('../img/1.jpg');
+    background-size: cover;
+    -webkit-background-size:cover;
+	-moz-background-size:cover;
+	-ms-background-size:cover;
+}
+#sessao4 {
+    background-color: #3ac415;
+    transform: translateZ(-1px) scale(2);
+    background-size: cover;
+    z-index: -1;
+}
+#sessao4 p{
+ color: #fff; font-size: 30px;
+}
+.slide {
+    position: relative;
+    padding: 25% 10%;
+    min-height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    box-shadow: 0 -1px 10px rgba(0, 0, 0, .7);
+    transform-style: inherit;
+}
+#sessao3 p { color: #fff; font-size: 40px;
+}
+/*formulário*/
+.form{
+
+	height: 310px;
+	background-color: rgba(80, 36, 25, 0.5);
+	padding:10px; 
+
+}
+.form h4{
+  font-family: 'Philosopher', sans-serif;	
+  color: #fff;
+  text-shadow: 1px 1px 1px #000000;
+}
+.form input{
+  color: #000000;	
+  font-family: 'Abel', sans-serif;
+
+
+}
+/*-----------------------*/
+#conteudo{
+	min-height: 400px;
+
+}
+#cor1{
+	background-color: #000000;
+	min-height: 500px;
+}
+#cor1 p{
+	font-size: 20px;
+	color: #fff;
+	padding: 10px;
+}
+#cor2{
+	background-color: #26FF6E;
+	min-height: 500px;
+}
+#cor2 p{
+	font-size: 20px;
+	color: #000000;
+	padding: 10px;
+
+}
+#cor3{
+	background-color: #000000;
+	min-height: 500px;
+}
+#cor3 p{
+	font-size: 20px;
+	color: #fff;
+	padding: 10px;
+}
+#sessao5 h3{
+	margin-top: 10px;
+	padding:10px; 
+	color: #fff;
+}	
+#sessao5 img{
+	margin: 0 auto;
+}
+#sessao6{
+	background: url('../img/2.jpg');
+	background-size: cover;
+    -webkit-background-size:cover;
+	-moz-background-size:cover;
+	-ms-background-size:cover;
+}
+#sessao6 p{
+ color: #fff; font-size: 40px;
+}
+.mais{
+	height: 800px;
+}
+.mais{
+	background-image: url('../img/fundo.png'); 
+	background-size: cover;
+    -webkit-background-size:cover;
+	-moz-background-size:cover;
+	-ms-background-size:cover;
+}
+.mais h3{
+	color: #000000;
+	text-shadow: 1px 1px #fff;
+}
+.mais p{
+	margin-top: 10px;
+	background-color: rgba(134, 208, 62, 0.3);
+	color: #000000;
+	font-size: 15px;
+	padding: 10px;
+}
+.mais img{
+	margin: 0 auto;
+}
+.footer{
+	background: url('../img/fundo_footer.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+    -webkit-background-size:cover;
+	-moz-background-size:cover;
+	-ms-background-size:cover;
+	height: 320px;
+}
+.footer h5{
+	text-align: center;
+}
+.footer a{
+	margin-top: 10px;
+	text-decoration: none;
+	color: #000000;
+	transition: 0.2s;		
+}
+.footer a:hover{
+	background-color: #3ac415;
+	padding:10px; 
+}
+.footer h3{
+	color: #000000;
+	text-align: center;
+}
+#foot_logo{
+	padding: 20px;
+	margin: 0 auto;
+}
